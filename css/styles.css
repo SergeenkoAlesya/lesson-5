@@ -65,22 +65,23 @@ body {
   margin: 15px 15px;
 }
 
-.container__item p {
-  border-radius: 10px;
-  margin: 0;
-}
 /* customers */
 
-.customers__item-header {
+.customers__item__text {
   background: #e2e2e2;
+  border-radius: 10px;
+  margin: 0;
+  color: #86878b;
+  padding: 38px 0 37px 0;
 }
 
-.customers__info {
+.customers__item__info {
   display: flex;
   align-items: flex-end;
+  margin-top: 46px;
 }
 
-.customers__info .customers__name {
+.customers__item__info .customers__item__name {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 24px;
@@ -89,13 +90,13 @@ body {
   text-align: start;
 }
 
-.customers__info .customers__job {
+.customers__item__info .customers__item__job {
   background: white;
   text-align: start;
   margin-top: 15px;
 }
 
-.customers__triangle {
+.customers__item__triangle {
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -103,6 +104,10 @@ body {
   border-top: 20px solid #e2e2e2;
   margin-left: 50px;
   color: #86878b;
+}
+
+.customers__item__img {
+  margin: 15px;
 }
 
 /* option */
