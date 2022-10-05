@@ -73,41 +73,49 @@ body {
   margin: 0;
   color: #86878b;
   padding: 38px 0 37px 0;
+  position: relative;
+  height: 105px;
 }
 
 .customers__item__info {
   display: flex;
-  align-items: flex-end;
-  margin-top: 46px;
+  padding-top: 66px;
+  column-gap: 30px;
 }
 
-.customers__item__info .customers__item__name {
+.customers__item__text::after {
+  position: absolute;
+  content: "";
+  top: 180px;
+  left: 70px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #e2e2e2;
+  color: #86878b;
+  width: 0;
+  height: 0;
+}
+
+.customers__item__extra {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: flex-start;
+}
+
+.customers__item__extra p:first-child {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  background: white;
-  text-align: start;
+  margin: 0;
+  height: 54px;
 }
 
-.customers__item__info .customers__item__job {
-  background: white;
-  text-align: start;
+.customers__item__extra p:last-child {
   margin-top: 15px;
-}
-
-.customers__item__triangle {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 20px solid #e2e2e2;
-  margin-left: 50px;
-  color: #86878b;
-}
-
-.customers__item__img {
-  margin: 15px;
+  margin: 0;
+  height: 21px;
 }
 
 /* option */
