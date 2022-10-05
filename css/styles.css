@@ -86,14 +86,11 @@ body {
 .customers__item__text::after {
   position: absolute;
   content: "";
-  top: 180px;
+  bottom: -30px;
   left: 70px;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 30px solid #e2e2e2;
-  color: #86878b;
-  width: 0;
-  height: 0;
 }
 
 .customers__item__extra {
