@@ -87,7 +87,7 @@ body {
 /* main */
 
 .main {
-  background: url(/img/MainBackground.png),
+  background: url(../img/MainBackground.png),
     rgba(0, 0, 0, 0.5) no-repeat center center / cover;
   width: 1510px;
   margin: 0 auto;
@@ -280,7 +280,7 @@ body {
 /*banner*/
 
 .banner {
-  background: url(/img/banner.png),
+  background: url(../img/banner.png),
     rgba(0, 0, 0, 0.5) no-repeat center center / cover;
   width: 1510px;
   margin: 0 auto;
