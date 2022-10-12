@@ -316,9 +316,7 @@ input[type="button"] {
 }
 
 /* contact*/
-.contact {
-  margin-bottom: 50px;
-}
+
 .contact__form {
   display: flex;
   column-gap: 30px;
