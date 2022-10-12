@@ -356,6 +356,9 @@ input[type="button"] {
   resize: none;
   height: 100%;
   width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
 .contact__button {
   display: flex;
