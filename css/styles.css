@@ -172,6 +172,7 @@ input {
   line-height: 20px;
   color: #bdbdbd;
   margin-top: 33px;
+  outline: none;
 }
 .main form p {
   font-family: Open Sans;
@@ -354,9 +355,11 @@ input[type="button"] {
   resize: none;
   height: 100%;
   width: 100%;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
+  outline: none;
 }
 .contact__button {
   display: flex;
