@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Raleway:wght@400;500;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/eset.css" />
@@ -16,11 +16,11 @@
     <header class="header">
       <div class="header__logo"><img src="img/logo.png" alt="logo" /></div>
       <nav class="header__menu">
-        <a href="">features</a>
-        <a href="">About</a>
-        <a href="">Pricing</a>
-        <a href="">Reviews</a>
-        <a href="">Contact</a>
+        <a href="#tabs">features</a>
+        <a href="#awesome">About</a>
+        <a href="#option">Pricing</a>
+        <a href="#customers">Reviews</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <section class="main">
@@ -59,6 +59,111 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="social">
+      <div class="container">
+        <div class="social__header">
+          <h4>Social Media</h4>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet.
+          </h5>
+        </div>
+        <div class="social__icons">
+          <a href="#"><img src="img/facebook_icon.svg" alt="facebook" /></a>
+          <a href="#"><img src="img/twitter_icon.svg" alt="witter" /></a>
+          <a href="#"><img src="img/linkedin_icon.svg" alt="linkedin" /></a>
+          <a href="#"><img src="img/pinterest_icon.svg" alt="pinterest" /></a>
+          <a href="#"><img src="img/instagram_icon.svg" alt="instagram" /></a>
+          <a href="#"><img src="img/github_icon.svg" alt="github" /></a>
+          <a href="#"><img src="img/rss_icon.svg" alt="rss_icon" /></a>
+        </div>
+      </div>
+    </section>
+    <section class="tabs">
+      <div class="container">
+        <div class="tabs__item">
+          <div class="tab">
+            <input type="radio" id="tab1" name="tab-group" checked />
+            <label for="tab1" class="tab-title">Tab 1</label>
+            <div class="tab-content">
+              <div class="tab__content__left">
+                <h3>Tabs with soft transitioning effect.</h3>
+                <h5>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean <br />euismod <br />
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                  et<br />
+                  viverra<br />
+                  justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                  natoque penatibus et magnis dis parturient montes.<br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean<br />
+                  euismod bibendum laoreet.
+                </h5>
+                <a href="" class="main__btn">Download</a>
+              </div>
+              <div class="tab__content__right">
+                <img src="img/StateOfLiberty.png" alt="liberty" />
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" id="tab2" name="tab-group" />
+            <label for="tab2" class="tab-title">Tab 2</label>
+            <div class="tab-content"></div>
+          </div>
+          <div class="tab">
+            <input type="radio" id="tab3" name="tab-group" />
+            <label for="tab3" class="tab-title">Tab 3</label>
+            <div class="tab-content"></div>
+          </div>
+        </div>
+      </div>
+      <!--
+      
+        <form class="tabs__form">
+          <div class="tab">
+            <input type="radio" id="tab1" name="tab-group" />
+            <label for="tab1" class="tab-title">Tab1</label>
+            <div class="tab__content">
+              <div class="tab__content__left">
+                <h3>Tabs with soft transitioning effect.</h3>
+                <h5>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.<br />
+                  <br />
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </h5>
+                <a href="" class="main__btn">Download</a>
+              </div>
+              <div class="tab__content__right">
+                <img src="img/StateOfLiberty.png" alt="liberty" />
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" id="tab2" name="tab-group" />
+            <label for="tab2" class="tab-title">Tab2</label>
+            <div class="tab__content">
+              <p>test</p>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" id="tab3" name="tab-group" />
+            <label for="tab3" class="tab-title">Tab3</label>
+            <div class="tab__content">
+              <p>test</p>
+            </div>
+          </div>
+        </form>
+      </div>-->
     </section>
     <section class="awesome">
       <div class="container">
@@ -260,13 +365,13 @@
     </section>
     <footer class="footer">
       <div class="footer__contacts">
-        <img src="img/facebook_icon.svg" alt="facebook" />
-        <img src="img/twitter_icon.svg" alt="witter" />
-        <img src="img/linkedin_icon.svg" alt="linkedin" />
-        <img src="img/pinterest_icon.svg" alt="pinterest" />
-        <img src="img/instagram_icon.svg" alt="instagram" />
-        <img src="img/github_icon.svg" alt="github" />
-        <img src="img/rss_icon.svg" alt="rss_icon" />
+        <a href="#"><img src="img/facebook_icon.svg" alt="facebook" /></a>
+        <a href="#"><img src="img/twitter_icon.svg" alt="witter" /></a>
+        <a href="#"><img src="img/linkedin_icon.svg" alt="linkedin" /></a>
+        <a href="#"><img src="img/pinterest_icon.svg" alt="pinterest" /></a>
+        <a href="#"><img src="img/instagram_icon.svg" alt="instagram" /></a>
+        <a href="#"><img src="img/github_icon.svg" alt="github" /></a>
+        <a href="#"><img src="img/rss_icon.svg" alt="rss_icon" /></a>
       </div>
       <p>© 2015 Axure Themes</p>
     </footer>

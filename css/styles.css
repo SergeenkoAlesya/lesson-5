@@ -10,6 +10,7 @@ body {
 .red {
   color: #ec7979;
 }
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -197,6 +198,127 @@ input[type="button"] {
   text-align: center;
   padding: 20px 0px;
   margin-top: 75px;
+}
+
+/*tabs */
+
+.tabs {
+  margin: 100px 0 50px 0;
+}
+
+.tabs__item {
+  position: relative;
+  height: 520px;
+}
+
+.tab,
+.tab-title {
+  display: inline-block;
+}
+.tab input[type="radio"] {
+  display: none;
+}
+.tab-title {
+  padding: 10px 0;
+  border-bottom: none;
+  width: 201px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tab-content {
+  position: absolute;
+  border: 1px solid #c6cbcd;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.tab :checked + .tab-title {
+  position: absolute;
+  position: relative;
+  background: #fff;
+  top: 2px;
+  z-index: 1;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+}
+.tab :checked ~ .tab-content {
+  display: flex;
+}
+
+.tab__content__left {
+  margin: 0 30px 20px 100px;
+}
+
+.tab__content__left h3 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+  padding: 47px 0;
+  margin: 0;
+}
+
+.tab__content__left h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.tab__content__left a {
+  background: #ec7979;
+}
+
+.tab__content__right img {
+  width: 470px;
+  height: 100%;
+}
+
+/* social */
+.social {
+  background: #f8efef;
+}
+
+.social .container {
+  display: flex;
+  align-items: center;
+}
+
+.social__header {
+  margin-right: 50px;
+}
+.social__header h4 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+
+  color: #333333;
+  padding: 18px 0;
+  margin: 0 0;
+}
+
+.social__header h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  width: 470px;
+  margin: 0 0 18px 0;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 30px;
 }
 /* awesome */
 
