@@ -81,6 +81,7 @@ body {
   line-height: 19px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
@@ -88,6 +89,15 @@ body {
   width: 113.8px;
 }
 
+.header__menu a:hover {
+  background-color: #ec7979;
+  text-transform: uppercase;
+}
+
+.header__menu a:active {
+  background-color: #ab4949;
+  text-transform: uppercase;
+}
 /* main */
 
 .main {
