@@ -596,7 +596,8 @@ input[type="button"] {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.footer__contacts a:hover {
+.footer__contacts a:hover,
+.social__icons a:hover {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
