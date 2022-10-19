@@ -11,9 +11,39 @@ body {
   color: #ec7979;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container__header {
@@ -23,10 +53,6 @@ body {
 }
 
 .container__header h2 {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
   margin: 50px 170px 0 168px;
   padding: 64px 0;
 }
@@ -59,34 +85,38 @@ body {
 }
 
 /* header */
+
 .header {
-  display: flex;
-  column-gap: 470px;
   background-color: #000000;
-  width: 100%;
-  height: 75px;
-  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo {
-  margin-left: 115.28px;
+  margin-left: -55px;
 }
+
 .header__menu {
   display: flex;
 }
+
 .header__menu a {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
+  padding: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   text-transform: capitalize;
   text-decoration: none;
   color: #ffffff;
-  width: 113.8px;
+  width: 113px;
 }
 
 .header__menu a:hover {
@@ -101,11 +131,9 @@ body {
 /* main */
 
 .main {
-  background: url(../img/MainBackground.png),
-    rgba(0, 0, 0, 0.5) no-repeat center center / cover;
-  width: 100%;
-  margin: 0 auto;
+  background: url(../img/MainBackground.png) no-repeat 0 -75px / cover;
   padding: 208px 0 185px 0;
+  margin-bottom: -75px;
 }
 
 .main__conteiter {
@@ -120,15 +148,13 @@ body {
 .main__logo {
   margin-bottom: 51px;
 }
-.main__header h2 {
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
+.main__header h1 {
   display: flex;
   align-items: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 0;
+  width: 670px;
+  margin: 72px 0 55px 0;
 }
 
 .main__header p {
@@ -139,6 +165,7 @@ body {
   align-items: center;
   color: #ffffff;
   margin-bottom: 42px;
+  width: 270px;
 }
 
 .main__line {
@@ -168,6 +195,11 @@ body {
   width: 470px;
   background: #ffffff;
   border-radius: 10px;
+}
+
+.main__conteiner__form h4 {
+  text-align: center;
+  padding: 28px 0;
 }
 .inputs__wrappers {
   padding: 0 50px;
@@ -266,20 +298,11 @@ input[type="button"] {
 }
 
 .tab__content__left h3 {
-  font-family: "Open Sans";
-  font-weight: 700;
   font-size: 30px;
   line-height: 41px;
   color: #000000;
   padding: 47px 0;
   margin: 0;
-}
-
-.tab__content__left h5 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
 }
 
 .tab__content__left a {
@@ -305,21 +328,12 @@ input[type="button"] {
   margin-right: 50px;
 }
 .social__header h4 {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 33px;
   text-transform: capitalize;
-
   color: #333333;
   padding: 18px 0;
-  margin: 0 0;
 }
 
 .social__header h5 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
   color: #86878b;
   width: 470px;
   margin: 0 0 18px 0;
@@ -330,12 +344,9 @@ input[type="button"] {
   justify-content: flex-end;
   column-gap: 30px;
 }
-/* awesome */
+/* about */
 
 .container__item h3 {
-  font-family: Open Sans, sans-serif;
-  font-weight: 700;
-  font-size: 24px;
   margin: 50px 0;
 }
 
@@ -352,7 +363,6 @@ input[type="button"] {
   color: #86878b;
   padding: 38px 0 37px 0;
   position: relative;
-  height: 105px;
 }
 
 .customers__item__info {
@@ -500,8 +510,7 @@ input[type="button"] {
 /*banner*/
 
 .banner {
-  background: url(../img/banner.png),
-    rgba(0, 0, 0, 0.5) no-repeat center center / cover;
+  background: url(../img/banner.png) no-repeat center center / cover;
   width: 100%;
   margin: 0 auto;
   padding: 50px 0;
@@ -530,6 +539,9 @@ input[type="button"] {
   border: 1px solid #ffffff;
 }
 
+.banner .main__btn {
+  width: 370px;
+}
 /* footer */
 
 .footer {
