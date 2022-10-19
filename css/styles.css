@@ -191,6 +191,35 @@ h4 {
   padding: 14.5px 90px;
 }
 
+.main__btn:hover {
+  border: 2px solid #ec7979;
+  color: #ec7979;
+}
+
+.main__btn:active {
+  color: #fff;
+  background-color: #ab4949;
+}
+
+.main__btn__fill {
+  border: 2px solid #ec7979;
+  background-color: #ec7979;
+  color: #fff;
+}
+
+.main__btn__fill:hover {
+  border: 2px solid #ab4949;
+  background-color: #ab4949;
+  color: #fff;
+}
+
+.main__btn__fill:active {
+  color: #fff;
+  background: #ec7979;
+  border: 2px solid #ec7979;
+  box-shadow: inset 0px 0px 10px #ab4949;
+}
+
 .main__conteiner__form {
   width: 470px;
   background: #ffffff;
@@ -565,4 +594,9 @@ input[type="button"] {
   text-align: center;
   padding: 32px 0 18px 0;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__contacts a:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
 }
