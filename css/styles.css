@@ -300,6 +300,7 @@ input[type="button"] {
 .tab__content__left h3 {
   font-size: 30px;
   line-height: 41px;
+  text-transform: capitalize;
   color: #000000;
   padding: 47px 0;
   margin: 0;
